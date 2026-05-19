@@ -13,6 +13,11 @@ Compared two Airbnb markets using:
 - Code: `code/airbnb_miami.R`, `code/airbnb_paris.R`
 - Submission (PDF): `report/CASE # 4 AIRBNB PDF.pdf`
 
+## Key Findings
+- Review sentiment is a statistically significant predictor of occupancy in both markets, with a stronger effect in Miami (trust/peer-signal heavy market).
+- Topic modeling shows shared “host warmth” as a universal positive driver, while Miami negatives skew toward expectation mismatch and Paris negatives skew toward physical constraints (e.g., space/noise/elevator).
+
+- 
 ## Visuals
 ### Data Overview
 ![Data Overview](assets/data_overview.png)
