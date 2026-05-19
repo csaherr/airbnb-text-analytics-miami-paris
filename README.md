@@ -1,24 +1,24 @@
 # Airbnb — Text Analytics & Occupancy Drivers (Miami vs Paris)
 
 Compared two Airbnb markets using:
-1) linear regression on listing attributes + sentiment to explain occupancy, and  
-2) topic modeling on review text to identify themes linked to higher vs lower ratings.
+- linear regression on listing attributes + sentiment to explain occupancy, and
+- topic modeling on review text to identify themes linked to higher vs lower ratings.
+
+## Quick Links
+- Code: `code/airbnb_miami.R`, `code/airbnb_paris.R`
+- Submission (PDF): `report/AIRBNB.pdf`
 
 ## Highlights
 - Modeled occupancy using log-transformed predictors and binary host/listing features; sentiment added signal beyond star ratings.
 - Topic modeling compared review themes across markets and linked topics to rating differences (5-star vs 3-star).
 - Delivered market-specific recommendations (Miami: trust + friction reduction; Paris: transparency + pricing sensitivity).
 
-- ## Quick Links
-- Code: `code/airbnb_miami.R`, `code/airbnb_paris.R`
-- Submission (PDF): `report/ AIRBNB.pdf`
-
 ## Key Findings
 - Review sentiment is a statistically significant predictor of occupancy in both markets, with a stronger effect in Miami (trust/peer-signal heavy market).
-- Topic modeling shows shared “host warmth” as a universal positive driver, while Miami negatives skew toward expectation mismatch and Paris negatives skew toward physical constraints (e.g., space/noise/elevator).
+- Topic modeling shows shared **host warmth** as a universal positive driver, while Miami negatives skew toward expectation mismatch and Paris negatives skew toward physical constraints (e.g., space/noise/elevator).
 
-- 
 ## Visuals
+
 ### Data Overview
 ![Data Overview](assets/data_overview.png)
 
