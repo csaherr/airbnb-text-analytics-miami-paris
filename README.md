@@ -9,6 +9,10 @@ Compared two Airbnb markets using:
 - Topic modeling compared review themes across markets and linked topics to rating differences (5-star vs 3-star).
 - Delivered market-specific recommendations (Miami: trust + friction reduction; Paris: transparency + pricing sensitivity).
 
+- ## Quick Links
+- Code: `code/airbnb_miami.R`, `code/airbnb_paris.R`
+- Submission (PDF): `report/CASE # 4 AIRBNB PDF.pdf`
+
 ## Visuals
 ### Data Overview
 ![Data Overview](assets/data_overview.png)
